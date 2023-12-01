@@ -48,7 +48,7 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php  $user_query="select * from students";
+                                <?php  $user_query="select * from students";
                                   $studd1 = $conn ->query($user_query);
 
 									while($row=mysqli_fetch_array($studd1)){
