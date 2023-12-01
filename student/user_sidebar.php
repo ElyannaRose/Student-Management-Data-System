@@ -23,7 +23,7 @@
 
 
 						<li class="">
-						<a href="dasboard.php" class="skyblue_link"><i class="icon-list icon-large icon-large"></i>&nbsp;Dashboard</a>
+						<a href="dasboard.php" class="lightblue_link"><i class="icon-list icon-large icon-large"></i>&nbsp;Dashboard</a>
 						</li>
 
 						<!-- <li class="">
@@ -31,7 +31,7 @@
 						</li> -->
 
 						<li class="">
-							<a href="profile.php" class="skyblue_link"><i class="icon-home icon-large icon-large"></i>&nbsp;Profiles</a>
+							<a href="profile.php" class="lightblue_link"><i class="icon-home icon-large icon-large"></i>&nbsp;Profiles</a>
 						</li>
 
 						<!-- <li class="">
@@ -39,7 +39,7 @@
 						</li> -->
 
 						<li class="">
-							<a href="view_grade.php" class="skyblue_link"><i class="icon-home icon-large icon-large"></i>&nbsp;View Grades</a>
+							<a href="view_grade.php" class="lightblue_link"><i class="icon-home icon-large icon-large"></i>&nbsp;View Grades</a>
 						</li>
 
 				<!-- 		<li class="">
@@ -47,7 +47,7 @@
 						</li> -->
 
 						<li class="">
-						<a href="logout.php" class="skyblue_link"><i class="icon-signout icon-large"></i>&nbsp;Logout</a>
+						<a href="logout.php" class="lightblue_link"><i class="icon-signout icon-large"></i>&nbsp;Logout</a>
 						</li>
 							
 					</ul>
