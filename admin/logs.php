@@ -29,18 +29,20 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php $user_query="select * from logs";
-                                  $user = $conn ->query($user_query);
+                                <?php
+                                $user_query = "SELECT * FROM logs ORDER BY id DESC";
+                                $user = $conn->query($user_query);
+                                while ($row = mysqli_fetch_array($user)) {
+                                 $id = $row['id'];
+                                ?>
+                                 <tr class="del<?php echo $id ?>">
+                                         <td><?php echo $row['username']; ?></td> 
+                                         <td><?php echo $row['activity']; ?></td> 
+                                         <td><?php echo $row['date']; ?></td> 
+                                         <td><?php echo $row['time']; ?></td> 
+                                      </tr>
+                                <?php } ?>
 
-									while($row=mysqli_fetch_array($user)){
-									$id=$row['id']; ?>
-                                    <tr class="del<?php echo $id ?>">
-                                        <td><?php echo $row['username']; ?></td> 
-                                        <td><?php echo $row['activity']; ?></td> 
-                                        <td><?php echo $row['date']; ?></td> 
-                                        <td><?php echo $row['time']; ?></td> 
-                                    </tr>
-									<?php } ?>
                            
                                 </tbody>
                             </table>
