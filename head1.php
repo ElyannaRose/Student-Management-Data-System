@@ -99,6 +99,6 @@
 			</form>
 		</div>
 		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Close</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;CLOSE</button>
 		</div>
     </div>
